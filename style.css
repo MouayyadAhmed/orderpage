@@ -51,16 +51,15 @@ article {
     padding: 10px;
     flex-direction: row;
     gap: 15px;
-    height: 60px;
+    height: 40px;
+    width: 80%;
     background-color: hsl(225, 100%, 98%);
     border-radius: 5px;
+    align-items: center;
 }
 .imgicon{
   width: 30px;
   height: 30px;
-}
-.allitems{
-    align-items: center;
 }
 .annual{
     font-family:'Red Hat Display' ;
