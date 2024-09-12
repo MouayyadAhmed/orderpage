@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+.root{
+    --body-font__1: 'Red Hat Display', serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    display: grid;
+    justify-items: center;
+
+}
+
+.headimg {
+    width: 100%;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+article {
+    position: absolute;
+    top: 150px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    border-radius: 10px;
+}
+.order{
+    font-family: 'Red Hat Display';
+    font-weight: 800;
+    padding-top: 20px;
+}
+.listen{
+    font-family: 'Red Hat Display';
+    font-weight: 100;
+    font-size: 12px;
+    padding: 20px;
+    text-align: center;
+}
+.allitems{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    gap: 15px;
+    height: 60px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 5px;
+}
+.imgicon{
+  width: 30px;
+  height: 30px;
+}
+.allitems{
+    align-items: center;
+}
+.annual{
+    font-family:'Red Hat Display' ;
+    font-size:12px ;
+    font-weight: bold;
+}
+.planprice{
+    font-family:'Red Hat Display' ;
+    font-weight: 400;
+    font-size: 10px;
+    color: hsl(224, 23%, 55%);
+}
+.paybutton{
+    margin: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    width: 80%;
+    background-color :hsl(245, 75%, 52%);
+    color: white;
+    font-family:'Red Hat Display' ;
+    font-size: 10px;
+    font-weight: 600;
+}
+.cancellink{
+    margin-bottom: 15px;
+    color:hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display';font-weight: bold;
+    font-size: 10px;
+    text-decoration: none;
+}
